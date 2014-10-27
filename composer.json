@@ -1,0 +1,18 @@
+{
+    "name": "pengchi/taggable-behavior",
+    "description": "Allows active record model to manage tags.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alexander Makarov",
+            "email": "sam@rmcreative.ru"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/yiiext/taggable-behavior/issues?state=open",
+        "source": "https://github.com/yiiext/taggable-behavior"
+    },
+    "require": {
+        "yiisoft/yii": "1.1.15"
+    }
+}
