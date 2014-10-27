@@ -11,8 +11,5 @@
     "support": {
         "issues": "https://github.com/yiiext/taggable-behavior/issues?state=open",
         "source": "https://github.com/yiiext/taggable-behavior"
-    },
-    "require": {
-        "yiisoft/yii": "1.1.15"
     }
 }
