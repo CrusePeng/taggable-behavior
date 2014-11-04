@@ -392,7 +392,9 @@ class ETaggableBehavior extends CActiveRecordBehavior {
 						$this->getTagBindingTableName(),
 						array(
 							$this->getModelTableFkName() => $this->getOwner()->primaryKey,
-							$this->tagBindingTableTagId => $tagId
+                            $this->tagBindingTableTagId => $tagId,
+                            'created_at' => date('Y-m-d H:i:s'),
+                            'updated_at' => date('Y-m-d H:i:s'),
 						)
 					)->execute();
 				}
