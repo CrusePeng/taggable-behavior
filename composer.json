@@ -1,5 +1,5 @@
 {
-    "name": "pengchi/taggable-behavior",
+    "name": "yiiext/taggable-behavior",
     "description": "Allows active record model to manage tags.",
     "type": "library",
     "authors": [
